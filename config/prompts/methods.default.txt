@@ -1,0 +1,1 @@
+Methods papers: focus on methodological innovation, limitations of prior methods, technical mechanism, assumptions, training/evaluation design, benchmarks, improvements, computational requirements, reproducibility, and best-use situations.

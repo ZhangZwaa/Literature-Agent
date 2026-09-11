@@ -1,0 +1,6 @@
+flask
+pyzotero
+python-dotenv
+pymupdf
+google-genai
+sentence-transformers

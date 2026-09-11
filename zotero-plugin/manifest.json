@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Literature Agent",
+  "version": "0.6.0",
+  "description": "Literature Agent for Zotero 9: local service, Analyze context action, cost/local intelligence/watch configuration.",
+  "author": "Local Research Workflow",
+  "homepage_url": "https://example.com/literature-agent",
+  "applications": {
+    "zotero": {
+      "id": "literature-agent@research.local",
+      "update_url": "https://example.com/literature-agent/updates.json",
+      "strict_min_version": "9.0",
+      "strict_max_version": "9.0.*"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "output_language": "english",
+  "watch": {
+    "research": {
+      "enabled": true,
+      "frequency": "daily",
+      "threshold": 82,
+      "max_candidates": 25,
+      "sources": [
+        "pubmed",
+        "europe_pmc"
+      ]
+    },
+    "methods": {
+      "enabled": true,
+      "frequency": "daily",
+      "threshold": 78,
+      "max_candidates": 25,
+      "sources": [
+        "pubmed",
+        "europe_pmc",
+        "arxiv"
+      ]
+    },
+    "review": {
+      "enabled": true,
+      "frequency": "monthly",
+      "threshold": 88,
+      "max_candidates": 10,
+      "sources": [
+        "pubmed",
+        "europe_pmc"
+      ]
+    }
+  },
+  "limits": {
+    "max_source_requests_per_day": 100,
+    "max_llm_screenings_per_day": 30,
+    "monthly_budget_usd": 5.0
+  },
+  "inbox_retention_days": 14,
+  "pdf_recovery": {
+    "unpaywall_email": ""
+  }
+}

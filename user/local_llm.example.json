@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "provider": "ollama",
+  "endpoint": "http://127.0.0.1:11434",
+  "model": "YOUR_LOCAL_MODEL",
+  "use_for_watch_compile": true,
+  "fallback_to_primary": true,
+  "timeout_seconds": 45
+}

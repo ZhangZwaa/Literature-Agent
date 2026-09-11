@@ -1,0 +1,47 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Per-user configuration / research profile
+agent_settings.json
+user/*.json
+user/*.txt
+!user/*.example.json
+
+# Local research state and generated artifacts
+data/
+downloads/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.envrc
+
+# OS / IDE / shortcuts
+.DS_Store
+Thumbs.db
+*.lnk
+.vscode/
+.idea/
+
+# Local build / test artifacts
+*.xpi
+*.rar
+*.7z
+
+user/prompts/
+
+# Local development / legacy files
+/app.js
+/dashboard.html
+/literature_agent_reference.txt
+/test_kimi.py
+/test_zotero.py
+/.gitignore.local-llm.txt
